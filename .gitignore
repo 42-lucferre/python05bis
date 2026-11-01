@@ -4,3 +4,4 @@
 !pyproject.toml
 !requirements.txt
 !.gitignore
+!*.env*
