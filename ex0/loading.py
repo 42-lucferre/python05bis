@@ -25,7 +25,7 @@ if __name__ == "__main__":
             print(f"[Error] {dep} not installed.")
 
     if missing_deps:
-        print("\nUse 'pip install -r ex0/loading.py' or 'poetry -C ex0/ "
+        print("\nUse 'pip install -r ex0/requirements.txt' or 'poetry -C ex0/ "
               "install' before running the program again.")
     else:
         print("\npip vs Poetry:")
