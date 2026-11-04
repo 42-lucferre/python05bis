@@ -64,7 +64,7 @@ def call_dotenv() -> None:
 
 if __name__ == "__main__":
     try:
-        import dotenv
+        import dotenv  # type: ignore
     except ImportError as e:
         print(f"[Error] {e} ")
         print("Use 'pip install -r ex1/requirements'")
